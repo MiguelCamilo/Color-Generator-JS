@@ -1,0 +1,32 @@
+body {
+    background-color: #f4f5f6;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#displayBox {
+    background-color: #d1d1d18f;
+    padding: 40px;
+    border-radius: 14px;
+    border: 10px solid #e3e3e39a;
+}
+
+#renderHex {
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+button {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 14px;
+    border: 3px solid #e3e3e369;
+    background-color: #a0a0a09a;
+    font-family: 'Anton', sans-serif;
+}
+
